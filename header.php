@@ -9,24 +9,24 @@
     <!-- Stylesheets
 	============================================= -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/style.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/dark.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/magnific-popup.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/custom.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--  Specific Stylesheet -->
-    <link rel="stylesheet" href="css/colors.php?color=222222" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/css/colors.php?color=222222" type="text/css" />
     <!--  Theme Color -->
-    <link rel="stylesheet" href="demos/store/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/demos/store/css/fonts.css" type="text/css" />
     <!--  Theme Font -->
-    <link rel="stylesheet" href="demos/store/store.css" type="text/css" />
+    <link rel="stylesheet" href="./wp-content/themes/mojo_english/demos/store/store.css" type="text/css" />
     <!-- Theme Custom CSS -->
     <!-- / -->
 
@@ -54,7 +54,7 @@
 
                         <div class="form-widget mx-auto" data-loader="button" style="padding: 30px">
 
-                            <h2 class="font-weight-bold h1 mb-3" style="letter-spacing: -2px">Get Special Discount!
+                            <h2 class="font-weight-bold h1 mb-3" style="letter-spacing: -2px">Get a special discount!
                             </h2>
                             <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:
                             </p>

@@ -1,5 +1,9 @@
 
-<?php if (!defined('ABSPATH')) exit;  get_header(); ?>
+<?php 
+if (!defined('ABSPATH')) exit;
+// $mojo_english_home is the path to the project's root directory
+$mojo_english_home = "./wp-content/themes/mojo_english/";
+get_header(); ?>
         <!-- Slider
 		============================================= -->
         <section id="slider" class="slider-element swiper_wrapper min-vh-100" data-loop="true" data-speed="1000" data-autoplay="5000">
@@ -17,7 +21,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide-bg" style="background-image: url('./images/slider/Mojo\ 2\ decks.jpg');"></div>
+                            <div class="swiper-slide-bg" style="background-image: url('<?php echo $mojo_english_home; ?>images/slider/Mojo\ 2\ decks.jpg');"></div>
                         </div>
                         <div class="swiper-slide dark">
                             <div class="container">
@@ -30,7 +34,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide-bg" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.6)), url('./images/slider/Set.jpg');">
+                            <div class="swiper-slide-bg" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.6)), url('<?php echo $mojo_english_home; ?>images/slider/Set.jpg');">
                             </div>
                         </div>
                         <div class="swiper-slide dark">
@@ -44,7 +48,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide-bg" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.3)), url('./images/slider/Game\ and\ rules.jpg');">
+                            <div class="swiper-slide-bg" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.3)), url('<?php echo $mojo_english_home; ?>images/slider/Game\ and\ rules.jpg');">
                             </div>
                         </div>
                     </div>
@@ -55,22 +59,6 @@
                         <div class="slide-number-total"></div>
                     </div>
                 </div>
-                <!-- Social media icons in slider -->
-                <!-- <div class="social-icons">
-                    <a href="https://fb.me/mojofamilyfun" class="social-icon si-small si-borderless si-rounded si-facebook">
-                        <i class="icon-facebook text-white-50"></i>
-                        <i class="icon-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com/mojoenglish/" class="social-icon si-small si-borderless si-rounded si-instagram">
-                        <i class="icon-instagram text-white-50"></i>
-                        <i class="icon-instagram"></i>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=7jxrKIvp4Ws&t=14s" class="social-icon si-small si-borderless si-rounded si-youtube">
-                        <i class="icon-youtube text-white-50"></i>
-                        <i class="icon-youtube"></i>
-                    </a>
-                </div> -->
-
             </div>
         </section>
         <!-- #Slider End -->
@@ -131,19 +119,19 @@
                     <div class="row mt-2">
                         <div class="col-md-4 mb-5">
                             <div class="card cat-card rounded-0 border-0 dark">
-                                <img src="productpics/MFFBlue-sentence.jpg" class="card-img rounded-0" alt="...">
+                                <img src="<?php echo $mojo_english_home; ?>productpics/MFFBlue-sentence.jpg" class="card-img rounded-0" alt="...">
                                 <div class="d-flex align-items-start flex-column card-img-overlay p-4"></div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-5">
                             <div class="card cat-card rounded-0 border-0 dark">
-                                <img src="productpics/MFFBlue-square.jpg" class="card-img rounded-0" alt="...">
+                                <img src="<?php echo $mojo_english_home; ?>productpics/MFFBlue-square.jpg" class="card-img rounded-0" alt="...">
                                 <div class="d-flex align-items-start flex-column card-img-overlay p-4"></div>
                             </div>
                         </div>
                         <div class="col-md-4 mb-5">
                             <div class="card cat-card rounded-0 border-0 dark">
-                                <img src="productpics/3O8A9361.jpg" class="card-img rounded-0" alt="...">
+                                <img src="<?php echo $mojo_english_home; ?>productpics/3O8A9361.jpg" class="card-img rounded-0" alt="...">
                                 <div class="d-flex align-items-start flex-column card-img-overlay p-4"></div>
                             </div>
                         </div>
@@ -252,7 +240,7 @@
                                     <p>Need a different language? <a>Click here</a></p>
 
                                     <!-- <p><img src="productpics/MFFBlue-sentence.jpg"></p> -->
-                                    <p><img src="images/Mojo.1.English.png"></p>
+                                    <p><img src="<?php echo $mojo_english_home; ?>images/Mojo.1.English.png"></p>
                                     <!-- <p><img src="jpegs/Stack Left-Face LITE copy-21.jpg"></p> -->
                                 </div>
                             </div>
@@ -262,8 +250,8 @@
             </div>
             <div class="section m-0 border-0" style="padding: 120px 0;">
                 <div class="video-wrap" style="z-index: 0">
-                    <video poster="portrait/vposter.jpg" preload="auto" loop autoplay muted>
-                            <source src='portrait/video.mp4' type='video/mp4' />
+                    <video poster="<?php echo $mojo_english_home; ?>portrait/vposter.jpg" preload="auto" loop autoplay muted>
+                            <source src='<?php echo $mojo_english_home; ?>portrait/video.mp4' type='video/mp4' />
                         </video>
                     <div class="video-overlay" style="background: rgba(0,0,0,0.2)"></div>
                 </div>
