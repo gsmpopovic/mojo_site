@@ -5,7 +5,7 @@ function mojo_load_scripts_and_styles() {
     wp_register_style ('style', get_stylesheet_directory_uri(), array(),'1.0.0','all');
   
     wp_enqueue_script('placeholder');
-    wp_enqueue_style( 'googlefonts');
+    wp_enqueue_style( 'style');
     }
     
     add_action( 'wp_enqueue_scripts', 'mojo_load_scripts_and_styles' );
