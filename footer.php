@@ -1,4 +1,4 @@
-
+<?$mojo_english_home3="./wp-content/themes/mojo_english/";?>
     <!-- Footer
 		============================================= -->
         <footer id="footer" class="bg-color dark border-0">
@@ -80,16 +80,16 @@
 
             <div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
                 <ul class="list-unstyled d-flex flex-row mb-2 clearfix">
-                    <li class="mr-2"><img src="./images/cards/visa.svg" alt="Visa" width="34"></li>
-                    <li class="mr-2"><img src="./images/cards/mc.svg" alt="Master Card" width="34">
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/visa.svg" alt="Visa" width="34"></li>
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/mc.svg" alt="Master Card" width="34">
                     </li>
-                    <li class="mr-2"><img src="./images/cards/ae.svg" alt="American Express" width="34">
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/ae.svg" alt="American Express" width="34">
                     </li>
-                    <li class="mr-2"><img src="./images/cards/pp.svg" alt="PayPal" width="34"></li>
-                    <li class="mr-2"><img src="./images/cards/sk.svg" alt="Skrill" width="34"></li>
-                    <li class="mr-2"><img src="./images/cards/2co.svg" alt="2CheckOut" width="34">
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/pp.svg" alt="PayPal" width="34"></li>
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/sk.svg" alt="Skrill" width="34"></li>
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/2co.svg" alt="2CheckOut" width="34">
                     </li>
-                    <li class="mr-2"><img src="./images/cards/wu.svg" alt="Western Union" width="34">
+                    <li class="mr-2"><img src="./wp-content/themes/mojo_english/images/cards/wu.svg" alt="Western Union" width="34">
                     </li>
                 </ul>
                 <div class="copyrights-menu copyright-links clearfix">
@@ -115,12 +115,12 @@
 
 <!-- JavaScripts
 ============================================= -->
-<script src="js/jquery.js"></script>
-<script src="js/plugins.min.js"></script>
+<script src="./wp-content/themes/mojo_english/js/jquery.js"></script>
+<script src="./wp-content/themes/mojo_english/js/plugins.min.js"></script>
 
 <!-- Footer Scripts
 ============================================= -->
-<script src="js/functions.js"></script>
+<script src="./wp-content/themes/mojo_english/js/functions.js"></script>
 
 <script>
 $(document).ready(changeHeaderColor);

@@ -91,8 +91,8 @@
                         <!-- Logo
                         ============================================= -->
                         <div id="logo" class="mr-sm-2">
-                            <a href="index.html" class="standard-logo" data-dark-logo="images/mojologo.png"><img src="images/Mojo English black logo-1.png" alt="Mojo English logo"></a>
-                            <a href="index.html" class="retina-logo" data-dark-logo="images/mojologo.png"><img src="images/Mojo English black logo-1.png" alt="Mojo English Logo"></a>
+                            <a href="index.html" class="standard-logo" data-dark-logo="./wp-content/themes/mojo_english/images/mojologo.png"><img src="./wp-content/themes/mojo_english/images/Mojo English black logo-1.png" alt="Mojo English logo"></a>
+                            <a href="index.html" class="retina-logo" data-dark-logo="./wp-content/themes/mojo_english/images/mojologo.png"><img src="./wp-content/themes/mojo_english/images/Mojo English black logo-1.png" alt="Mojo English Logo"></a>
                         </div>
                         <!-- #logo end -->
 
